@@ -1,0 +1,259 @@
+/* Css colurs */
+:root{
+  --blue: #007bff;
+  --indigo: #0d0cb5;
+  --purple: #7971ea;
+  --pink: #e83e8c;
+  --red: #f23a2e;
+  --orange: #ef6c57;
+  --yellow: #f89d13;
+  --green: #8bc34a;
+  --teal: #20c997;
+  --cyan: #51eaea;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #dd6b4d;
+  --secondary: #6c757d;
+  --success: #8bc34a;
+  --info: #51eaea;
+  --warning: #f89d13;
+  --danger: #f23a2e;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+}
+
+/* website margins and padding beofor overflow  */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/*css heading fronts*/
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+
+/*live time page settings*/
+#time{
+  position:absolute;
+  top:10px;
+  right: 10px;
+  text-align:right;
+  z-index:999;
+}
+
+/* Css for Nav bar and Avatar image */
+nav{
+  top: 0;
+  left: 0;
+  text-align: center!important;
+  position: fixed!important;
+  font-size: 12px!important;
+  background: #222;
+  overflow: auto;
+  display:block;
+  width: 120px;
+  height: 100%;
+  z-index: 900;
+}
+nav img{
+  opacity: .5;
+}
+nav a{
+    display: block;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0;
+    color: #fff!important;
+    border: none;
+    padding:12px 24px;
+    overflow: hidden;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+nav a:hover,
+nav a.active{
+  background:#000;
+}
+nav a .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 36px!important;
+}
+nav a p{
+  display:block;
+  margin:12px 0;
+}
+
+/* Css Page main family Display function */
+#main p{
+  padding:0 15px;
+  text-align:justify;
+}
+#main{
+  position:relative;
+  display:block;
+  width:calc(100% - 120px);
+  margin-left:120px;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* Css Page Header placemnt */
+header{
+}
+header img{
+  max-width: 100%;
+  height: auto;
+}
+
+/* Website Colors */
+body{
+  background-color:var(--dark);
+  color:var(--white);
+}
+
+/*Heading colors and text colors being set*/
+h2{
+  color:var(--info);
+}
+h3{
+  margin-bottom:15px;
+  color:var(white);
+}
+hr{
+  position:relative;
+  width:200px;
+  left:50%;
+  transform:translateX(-50%);
+}
+
+h1.fullscreen{
+  position:relative;
+  width:100%;
+  height:100%;
+  font-size:8vw;
+  line-height:100vh;
+  white-space:nowrap;
+}
+h2.subtitle{
+  position:absolute;
+  top:75vh;
+  width:100%;
+  text-align: center;
+}
+
+/*image support code and page display*/
+}
+.images{
+  position:relative;
+  display:block;
+  width:100%;
+  left:50%;
+  transform:translateX(-50%);
+  padding:5px;
+}
+.fifth{
+  display:inline-block;
+  width:calc(20% - 15px);
+  margin:5px;
+}
+.fifth img{
+  margin:5px;
+}
+
+/*thumhnail blog images with effect*/
+.thumb{
+  position:relative;
+  display:inline-block;
+  max-width:250px;
+}
+.thumb .blog-title{
+  display:block;
+}
+.thumb a{
+  text-decoration: none;
+  color:white;
+  font-weight:bold;
+}
+.thumb:hover a{
+  color:var(--info);
+}
+.thumb img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  text-align:center;
+}
+.thumb:hover img{
+  border-color: var(--info);
+}
+
+/*blog main body*/
+body.blog{
+  font-family: Arial;
+  padding: 20px;
+  background: #000;
+}
+
+}
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background:#343a40;
+}
+.contact{
+  position:relative;
+  width:100%;
+  text-align:center;
+}
+.contact p{
+  text-align: center;
+}
+.contact form{
+  position:relative;
+  max-width:500px;
+  left: 50%;
+  transform:translateX(-50%);
+}
+.contact form input,
+.contact form button{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #343a40;
+  margin-top: 20px;
+}
+.card{
+  text-align: center;
+}
+.card img{
+  max-width:100%;
+}
+
+
+
+
+/*end of css*/
